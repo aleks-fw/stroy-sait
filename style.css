@@ -36,7 +36,7 @@ img,svg{display:block;max-width:100%;}
   justify-content:center;
   padding:0.9rem 1.6rem;
   border-radius:var(--radius);
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.82rem;
   letter-spacing:0.04em;
   text-transform:uppercase;
@@ -81,7 +81,7 @@ img,svg{display:block;max-width:100%;}
 .nav__links{
   display:flex;
   gap:1.75rem;
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.78rem;
   letter-spacing:0.02em;
   color:var(--ink-dim);
@@ -90,7 +90,7 @@ img,svg{display:block;max-width:100%;}
 }
 .nav__links a:hover{color:var(--ink);}
 .nav__cta{
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.76rem;
   letter-spacing:0.03em;
   text-transform:uppercase;
@@ -272,7 +272,7 @@ img,svg{display:block;max-width:100%;}
 }
 .process__num{
   display:block;
-  font-family:var(--mono);
+  font-family:var(--display);
   color:var(--accent);
   font-size:0.85rem;
   margin-bottom:1.5rem;
@@ -321,7 +321,7 @@ img,svg{display:block;max-width:100%;}
   gap:1.75rem;
   border-top:1px solid var(--line);
   padding-top:1rem;
-  font-family:var(--mono);
+  font-family:var(--display);
 }
 .project-card__specs li{display:flex;flex-direction:column;gap:0.3rem;}
 .project-card__specs span{font-size:0.7rem;color:var(--ink-faint);text-transform:uppercase;letter-spacing:0.05em;}
@@ -350,7 +350,7 @@ img,svg{display:block;max-width:100%;}
 }
 .field label{
   display:block;
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.78rem;
   text-transform:uppercase;
   letter-spacing:0.04em;
@@ -363,7 +363,7 @@ img,svg{display:block;max-width:100%;}
 }
 .field__value{
   margin-top:0.6rem;
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.9rem;
   color:var(--ink);
 }
@@ -388,7 +388,7 @@ img,svg{display:block;max-width:100%;}
   gap:0.5rem;
 }
 .calc__result-label{
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.78rem;
   text-transform:uppercase;
   letter-spacing:0.04em;
@@ -471,7 +471,7 @@ img,svg{display:block;max-width:100%;}
   flex-wrap:wrap;
   gap:0.5rem;
   padding:2rem;
-  font-family:var(--mono);
+  font-family:var(--display);
   font-size:0.78rem;
   color:var(--ink-faint);
   border-top:1px solid var(--line);
